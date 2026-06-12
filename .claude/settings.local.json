@@ -4,7 +4,12 @@
       "Bash(pip install *)",
       "Bash(pip3 install *)",
       "Bash(python3 app.py)",
-      "Bash(git init *)"
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "WebSearch",
+      "Skill(run)"
     ]
   }
 }
