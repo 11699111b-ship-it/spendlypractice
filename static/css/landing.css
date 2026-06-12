@@ -216,6 +216,73 @@
 .lbar-purple { background: #7b6bd6; }
 
 /* ------------------------------------------------------------------ */
+/* How-it-works modal                                                  */
+/* ------------------------------------------------------------------ */
+
+.lmodal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.72);
+    z-index: 500;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.lmodal-overlay.lmodal-visible {
+    display: flex;
+}
+
+.lmodal-box {
+    position: relative;
+    width: 100%;
+    max-width: 820px;
+    background: #000;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.5);
+}
+
+.lmodal-close {
+    position: absolute;
+    top: 0.6rem;
+    right: 0.6rem;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+
+.lmodal-close:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.lmodal-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.lmodal-video iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* ------------------------------------------------------------------ */
 /* Responsive                                                          */
 /* ------------------------------------------------------------------ */
 
