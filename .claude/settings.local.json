@@ -15,7 +15,13 @@
       "Bash(sqlite3 spendly.db \".tables\")",
       "Bash(sqlite3 spendly.db \"SELECT email FROM users;\")",
       "Bash(sqlite3 spendly.db \"SELECT COUNT\\(*\\) FROM expenses;\")",
-      "Bash(xargs kill -9)"
+      "Bash(xargs kill -9)",
+      "Bash(git add *)",
+      "Bash(curl -s -X POST http://127.0.0.1:5001/register -d \"name=&email=&password=\")",
+      "Bash(curl -s -X POST http://127.0.0.1:5001/register -d \"name=Anurag&email=anurag@test.com&password=sh\")",
+      "Bash(curl -s -X POST http://127.0.0.1:5001/register -d \"name=Test&email=demo@spendly.com&password=testpass123\")",
+      "Bash(curl *)",
+      "Bash(pkill -f \"python3 app.py\")"
     ]
   }
 }
