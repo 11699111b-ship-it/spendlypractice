@@ -10,7 +10,12 @@
       "Bash(git push *)",
       "WebSearch",
       "Skill(run)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(git checkout *)",
+      "Bash(sqlite3 spendly.db \".tables\")",
+      "Bash(sqlite3 spendly.db \"SELECT email FROM users;\")",
+      "Bash(sqlite3 spendly.db \"SELECT COUNT\\(*\\) FROM expenses;\")",
+      "Bash(xargs kill -9)"
     ]
   }
 }
